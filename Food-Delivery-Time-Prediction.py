@@ -14,8 +14,8 @@ st.set_page_config(
 # ==========================
 # Load Model
 # ==========================
-model = joblib.load("Model/delivery_model.pkl")
-columns = joblib.load("Model/columns.pkl")
+model = joblib.load("delivery_model.pkl")
+columns = joblib.load("columns.pkl")
 
 # ==========================
 # Title
